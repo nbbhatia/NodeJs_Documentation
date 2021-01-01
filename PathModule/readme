@@ -1,0 +1,5 @@
+1.path module is used for getting all information about our current working directory.
+2. root/dir/base/extension/name
+3. base name is - file name 
+4. extension - file extension
+5. name - file name without extension
