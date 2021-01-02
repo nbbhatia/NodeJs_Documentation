@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nbbhatia/NodeMethods#readme",
   "dependencies": {
     "chalk": "4.1.0",
-    "nodemon": "2.0.6"
+    "nodemon": "2.0.6",
+    "validator": "13.5.2"
   }
 }
