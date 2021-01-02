@@ -1,3 +1,5 @@
+// Fs for Synchronus
+
 const fs = require("fs");
 // new file create with index.js name
 fs.writeFileSync("index.txt", "helloworld");

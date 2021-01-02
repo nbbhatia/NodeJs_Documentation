@@ -1,0 +1,9 @@
+1.Nodejs m jb hm kisi bhi file m kam krte hai to nodejs usko private rkhta hai.
+
+2. kyunki nodejs ka jitna bhi hm code krte hai vo usko ek WRAP function m daal deta hai, 
+jiski vjh se hm usko kisi another function main access nahi kr pate hai.
+
+3. Agar hme kisi  file ke variavble ko kisi dusri file m use krna hai to hme use 
+varble ko export krna pdega.
+
+4. Or jo yeh WRAP function hota h yeh anamous bina naam vala hota hai.

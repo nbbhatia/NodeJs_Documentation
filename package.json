@@ -1,0 +1,23 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbbhatia/NodeMethods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbbhatia/NodeMethods/issues"
+  },
+  "homepage": "https://github.com/nbbhatia/NodeMethods#readme",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "nodemon": "2.0.6"
+  }
+}
