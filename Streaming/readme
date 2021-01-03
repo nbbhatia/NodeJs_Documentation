@@ -1,0 +1,27 @@
+1. Streams are object that let you  read data from a source  or write data to a destination in continous  fashion. 
+In Node.js,there are 4 type of streams:-
+
+2.******** Easy language*******
+Streaming means  listening to music or watching video in "realTime",instead of downloading a file to ur computer and watching it later.
+
+3. pehle yeh hota tha ki jb bhi hme koi music ya vedio dekhni hoti thi to hme usko download krke hi dekhna pdta tha live hm
+ nahi dekh skte the lekin ab streaming ki help se ab hm vedio or song real time m sun skte hai.
+
+4.********** Example***********
+a)Jaise cricket match m ata h streaming partner means ki streaming partner  ek service provide krta hai jiski help se sab log apne apne ghr m baith kr live match dekh skte hai.
+b) ab Jaise hm koi vedio dekh rhe hai or vo vedio 10 min ki hai to 2 min,3min 4min aise aise chote chote chunks m vedio load ho rhi hai  bs isi  kaam ko streaming kaha jata hai.
+
+there are 4 types of Streams in nodejs:-
+
+Readable-  jha kuch read krna ho.
+Writable - Jha par hme kuch write krna ho.
+Duplex - aisi stream jha read or write dono ho jaye.
+Transform -  A type of duplex stream where the output is computed based on input.
+
+yeah sare stream belong to EVENTEMMITER instance.
+ 
+ ***********ab Streaming krne ke liuye most common used events jo hai -************
+1- data Event= this event is fired when there is data is available for read.
+2- end Event= this event is fired when  there is no more data to read.
+3- error Event = this event is fired when there is any error receiveing or writing data.
+4- finish = this event is fired when all the data has been flushed to underlying system.
