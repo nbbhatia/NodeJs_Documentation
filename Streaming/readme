@@ -25,3 +25,9 @@ yeah sare stream belong to EVENTEMMITER instance.
 2- end Event= this event is fired when  there is no more data to read.
 3- error Event = this event is fired when there is any error receiveing or writing data.
 4- finish = this event is fired when all the data has been flushed to underlying system.
+
+
+*****************stream PIPE*******************************
+pipe 2 cheez connect rehta hai kha se data read krna hai or kha paste krna hai
+ReadStream =>>>>>> kha se liya
+res ===>>>>> kha diya
