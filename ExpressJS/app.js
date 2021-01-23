@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("hello form expres");
 });
 app.get("/about",(req,res)=>
-{
+{ 
     res.send("hello from about page")
 })
 app.listen(8080, () => {
