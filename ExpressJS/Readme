@@ -1,0 +1,9 @@
+1. Package-lock.json-> complete ellaborate all dependencies.
+2 app.get(route, callback);
+3 *********API*********
+
+API 
+get - read
+post - create
+put - update
+delete - delete
