@@ -13,6 +13,9 @@ app.get("/contact", (req, res) => {
 app.get("/temp", (req, res) => {
   res.send("temp page");
 });
+app.get("*", (req, res) => {
+  res.status(404).send("<h1>Page Not Found</h1>");
+});
 app.listen(port, () => {
   console.log(`listening port`, port);
 });
