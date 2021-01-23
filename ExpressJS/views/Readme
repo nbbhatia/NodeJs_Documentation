@@ -1,0 +1,10 @@
+1. I am using handleBar for template engine due to this we create views folder which is compulsory
+
+ques:- Why we use template Engine?
+Ans:- with the use of template engine we can easily work with dynamic data.
+
+eg.
+
+If any user login in our website then  login text -> with {login USERNAME}.this process is easily 
+done by Template engine ,Pug, mustache and EJS
+
