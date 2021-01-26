@@ -1,0 +1,4 @@
+ 1. Mongoose  is used to established the connection between  NOdejs and MongodDB Databse.
+ 2. A Mongoose Schema defines the structure  of the document,
+ 3. Mongoose defines the defaults value ,validators etc.
+ 4 Mongoose Model provides an interface to the database for creating, updating and deleting records etc.
