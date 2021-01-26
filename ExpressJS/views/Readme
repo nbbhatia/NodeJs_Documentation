@@ -8,3 +8,6 @@ eg.
 If any user login in our website then  login text -> with {login USERNAME}.this process is easily 
 done by Template engine ,Pug, mustache and EJS
 
+ques:- can we change views  name ??
+ans :- yes we can 
+app.set("views", "customName")

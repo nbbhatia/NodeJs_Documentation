@@ -3,6 +3,9 @@ const app = express();
 
 // to set vieww Engine
 app.set("view engine", "hbs");
+// **********change template name*******************
+
+// app.set("views", "NewTemplateName");
 // template engine route
 app.get("", (req, res) => {
   res.render("hbsFile", {
