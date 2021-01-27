@@ -1,12 +1,11 @@
 const express = require("express");
 const router = new express.Router();
-const StudentModel = require("../models/studentModel");
-const mongoose = require("mongoose");
+const StudentDataModel = require("../models/studentModel");
+
 // *******÷********************************************************************************
 
 // *******÷********************************************************************************
 // collection Create
-const StudentDataModel = new mongoose.model("StudentDocuments", StudentModel);
 
 //  create document or Insert Data
 // simple way
@@ -165,10 +164,24 @@ const deleteDocument = async (name, _id) => {
     console.log("err", err);
   }
 };
+
 // deleteDocument("601054565bb422188a08d441");
 // // *******÷********************************************************************************
 // RestApi
+// create student
+router.post("/createData", async (req, res) => {
+  try {
+    const newStudent = new StudentDataModel(req.body);
+    console.log("newStudent", newStudent);
+    const result = await newStudent.save();
+    console.log("result", result);
+    res.send(result);
+  } catch (err) {
+    console.log("err", err);
+  }
+});
 // get all data
+
 router.get("/getStudents", async (req, res) => {
   try {
     const result = await StudentDataModel.find();

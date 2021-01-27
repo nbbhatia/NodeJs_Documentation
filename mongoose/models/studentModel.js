@@ -12,7 +12,7 @@ const StudentData = new mongoose.Schema({
     // maxlength: 4,
     minlength: 2,
     // bs yahi 4 m se koi naam hona chahiye
-    enum: ["nidhi", "arjun", "anita", "sanjay"],
+    // enum: ["nidhi", "arjun", "anita", "sanjay"],
   },
   RollNumber: {
     type: Number,
@@ -48,4 +48,5 @@ const StudentData = new mongoose.Schema({
     default: Date.now,
   },
 });
-module.exports = StudentData;
+const StudentDataModel = new mongoose.model("StudentDocuments", StudentData);
+module.exports = StudentDataModel;
